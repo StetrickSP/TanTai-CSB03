@@ -51,27 +51,28 @@
 # 5. Tính số chữ số của một số nguyên do người dùng nhập vào
 
 ##Bai 1
-try:
-    a = float(input("Nhap so thu nhat: "))
-    b = float(input("Nhap so thu hai: "))
-    c = float(input("Nhap so thu ba: "))
-except ValueError: 
-    print("Please enter all 3 numbers")
-count = a                         #count = 0 will make the code unable to analyze negative numbers
-numbers = [a, b, c]
-for i in numbers:
-    if i > count: count = i
-print("So lon nhat: ", count)
+# try:
+#     a = float(input("Nhap so thu nhat: "))
+#     b = float(input("Nhap so thu hai: "))
+#     c = float(input("Nhap so thu ba: "))
+# except ValueError: 
+#     print("Please enter all 3 numbers")
+# count = a                         #count = 0 will make the code unable to analyze negative numbers
+# numbers = [a, b, c]
+# for i in numbers:
+#     if i > count: count = i
+# print("So lon nhat: ", count)
 
 ##Bai 2
 # year = int(input("Nhap nam: "))
-# if year % 4 != 0:
-#     print("Not Leap year.")
-# elif year % 4 == 0:
-#     if year % 100 != 0:
-#         print("Not Leap year.")
-#     elif year % 100 == 0:
-#         if year % 400 != 0:
-#             print("Not Leap year.") 
+# if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+#     print("la Nam nhuan.")
+# else: print("Ko phai nam nhuan")
+
+##Bai 3
+i = 0
+while i < 6:
+    print(i)
+    i += 1
         
 

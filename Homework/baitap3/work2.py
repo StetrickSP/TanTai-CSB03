@@ -14,7 +14,7 @@ try:
     a = float(input("Enter your type of data: "))
     b = int(a)
     if b / a == 1:                                 ##Logic: Lay so nguyen int duoc lam tron cua input chia
-        print(a, "is an integer")                  #cho chinh so ban dau cua no: 
+        print(a, "is an integer")                  ##cho chinh so ban dau cua no: 
     else: print(a, "is not an integer")            #+Truong hop la so nguyen: int(a) / float(a) == 1
-except ValueError:                                 #+Truong hop khong phai la so nguyen: int(a) / float(a) > 1
+except ValueError:                                 #+Truong hop khong phai la so nguyen: int(a) / float(a) < 1
     print(a, "is not an integer")

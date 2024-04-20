@@ -10,13 +10,13 @@
 from turtle import *
 pen
 # Square
-# forward(90)
-# right(90)
-# forward(90)
-# right(90)
-# forward(90)
-# right(90)
-# forward(90)
+forward(90)
+right(90)
+forward(90)
+right(90)
+forward(90)
+right(90)
+forward(90)
 # Pentagon
 forward(90)
 mainloop()
