@@ -4,10 +4,16 @@
 
 ###Bai 2: 0 to n sequence
 # x = int(input("Input a number: "))
+# while x < 0: 
+#     print("Please enter a number greater than or equal to 0.")
+#     x = int(input("Input a number: "))
 # print(*range(0, x +1, 1))
 
 ###Bai 3: 0 to n odd sequence
 # x = int(input("Input a number: "))
+# while x < 0: 
+#     print("Please enter a number greater than or equal to 0.")
+#     x = int(input("Input a number: "))
 # nums = range(0, x +1, 1)
 # arr_nums = [*nums]
 # for i in arr_nums:
