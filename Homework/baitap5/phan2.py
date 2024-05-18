@@ -72,15 +72,15 @@
 #! => Make Fibonacci calculator: *F(n) = F(n-1) + F(n-2) with F(0) = 0, F(1) = 1
 #! => print(fiboCalc(n))
 
-n = int(input("Input a positiver number: "))
-def fiboSequence(x):
-    a, b = 0, 1          #EX: a, b = 0, 1 <=> a = 0
-    y = []               #^^;                 b = 1
-    for i in range(x):
-        a, b = b, a + b  #EX: a, b = b, a + b <=> c = a + b                            
-        y.append(a)      #^^:                     a = b 
-    return y             #^^:                     b = c
-print("First",n,"Fibonacci number(s): ", *fiboSequence(n))
+# n = int(input("Input a positiver number: "))
+# def fiboSequence(x):
+#     a, b = 0, 1          #EX: a, b = 0, 1 <=> a = 0
+#     y = []               #^^;                 b = 1
+#     for i in range(x):
+#         a, b = b, a + b  #EX: a, b = b, a + b <=> c = a + b                            
+#         y.append(a)      #^^:                     a = b 
+#     return y             #^^:                     b = c
+# print("First",n,"Fibonacci number(s): ", *fiboSequence(n))
     
 
 

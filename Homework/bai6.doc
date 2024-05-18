@@ -1,0 +1,23 @@
+### Hàm built-in trong Python là gì?
+Các hàm built-in trong Python là các Hàm có chức năng đã được lập trình sẵn để thực hiện một việc 
+cụ thể được đề ra bởi Python, có 68 hàm built-in trong Python.
+
+### Cách viết hàm trong Python (cho ví dụ về hàm tính tổng 2 số) và mục đích sử dụng hàm.
+Cách viết hàm trong Python được viết bằng cách: ghi tên hàm rồi hai dấu ngoặc tròn () và truyền vào tham số 
+cần thiết.
+Ví dụ: sum(x, y)
+Mục đích của hàm "sum" là để tính tổng các tham số đã truyền vào ngoặc
+
+### Phân biệt hàm print và hàm return
+Hàm print: thể hiện lên một mảnh thông tin trong hệ thống máy tính dưới dạng string cho người dùng xem
+Hàm return: trả lại giá trị của một hàm, nếu một hàm không dùng return, thì sẽ return sẽ trả lại giá trị "none"
+
+### Cách viết hàm thành module và import module
+Định nghĩa Module: là một file Python (.py) chứa đựng các Hàm chức năng đã được lập trình sẵn, biến được định 
+nghĩa ra từ trước,...
+Import Module: ta có thể dùng các hàm được dựng sẵn, classes được định nghĩa sẵn trong một module để dùng cho một
+module khác hoặc một file code của ta khi dùng từ khóa "import" 
+
+### Phân biệt biến global và biến local trong Python
+Biến Global: là biến được đề ra ở ngoài một hàm và có thể được dùng mọi nơi trong code.
+Biến Local: là biến được đề ra trong một hàm và chỉ có thể được dùng trong hàm đó.
