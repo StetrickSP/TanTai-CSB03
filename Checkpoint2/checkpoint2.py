@@ -85,31 +85,31 @@
 
 
 ###Phần 5. Thời gian: 15 phút
-# ##1. Init list of district names and population
-# districts = {
-#     "BĐ": 247100,
-#     "BTL": 333300,
-#     "CG ":266800,
-#     "ĐĐ": 420900,
-#     "HBT":318000
-# }
-# ##2. Search max & min population
-# popu = [*districts.values()]
-# count = 0
-# most = max(popu)
-# least = min(popu)
+##1. Init list of district names and population
+districts = {
+    "BĐ": 247100,
+    "BTL": 333300,
+    "CG ":266800,
+    "ĐĐ": 420900,
+    "HBT":318000
+}
+##2. Search max & min population
+popu = [*districts.values()]
+count = 0
+most = max(popu)
+least = min(popu)
 
-# print("Indices of: ")
-# for i in districts:
-#     if districts[i] == least: print("- Least populated district: ", count)
-#     elif districts[i] == most: print("- Most populated district: ", count)
-#     count += 1
+print("Indices of: ")
+for i in districts:
+    if districts[i] == least: print("- Least populated district: ", count)
+    elif districts[i] == most: print("- Most populated district: ", count)
+    count += 1
 
-# ##3. From district index to name
-# print("Names of: ")
-# for i in districts:
-#     if districts[i] == least: print("- Least populated district: ", i)
-#     elif districts[i] == most: print("- Most populated district: ", i)
+##3. From district index to name
+print("Names of: ")
+for i in districts:
+    if districts[i] == least: print("- Least populated district: ", i)
+    elif districts[i] == most: print("- Most populated district: ", i)
 
 
 ###Phần 6. Thời gian: 15 phút
@@ -130,13 +130,13 @@
 # print(avg_density)
 
 ###Phần 7. Thời gian: 10 phút
-score  = [70,90,76]
-inpscore = int(input('input new score: '))
-score.append(inpscore)
-score.sort(reverse=True)
-print(score)
-stt  = 0
-for i in score:
-    stt+=1
-    print(stt,':',i)
+# score  = [70,90,76]
+# inpscore = int(input('input new score: '))
+# score.append(inpscore)
+# score.sort(reverse=True)
+# print(score)
+# stt  = 0
+# for i in score:
+#     stt+=1
+#     print(stt,':',i)
 #  p8.2
