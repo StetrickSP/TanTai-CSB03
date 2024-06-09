@@ -86,9 +86,9 @@
 
 ###Phần 5. Thời gian: 15 phút
 ##1. Init list of district names and population
-districts = {
-    "BĐ": 247100,
-    "BTL": 333300,
+districts = {                                ##Access value of key: dict[key]
+    "BĐ": 247100,                             #Get values of all keys: dict.values()
+    "BTL": 333300,                            #Get all keys:values as pairs (as a tuple): dict.items()
     "CG ":266800,
     "ĐĐ": 420900,
     "HBT":318000
